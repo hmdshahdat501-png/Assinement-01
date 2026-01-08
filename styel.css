@@ -1,0 +1,90 @@
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    border-color: white;
+    padding: 24px 120px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+li{
+    font-size: 16px;
+    font-weight: 700;
+}
+.but{
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color:#469165;
+    border: none;
+}
+.hero-poing{
+    max-width: 1600px;
+    background: url(assets/hero-bg.png);
+}
+.secnd{
+    
+    text-align: center;
+    padding-top: 166px;
+    padding-bottom: 179px;
+}
+.access{
+    background-color: red;
+
+
+}
+.im{
+    background-color:white;
+    padding: 8px 12px;
+    border: none;
+    font-size: 16px;
+    color: #469165;
+    border-radius: 30px;
+}
+.secnd h1{
+    font-size: 72px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+.secnd p{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+
+}
+.cut{
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #469165;
+    color: white;
+    border: none;
+}
+.rut{
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600; 
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    margin-left: 16px;
+}
