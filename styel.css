@@ -154,3 +154,39 @@ li{
     margin: 0;
     padding-top: 16px;
 }
+.all-content{
+    display: flex;
+    max-width: 1360px;
+    gap: 60px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.thard-scetion{
+     max-width: 1600px;
+    
+
+}
+.tard-content h6{
+    font-size: 16px;
+    margin: 0px;
+    color: #627382;
+}
+.tard-content h2{
+    font-size: 48px;
+    margin: 0px;
+    font-weight: bold;
+    max-width: 600px;
+}
+.tard-content{
+    margin-top: 102px;
+}
+.tard-content p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    max-width: 600px;
+}
+.list{
+    list-style-image: url(/assets/CheckCircle.png);
+    line-height: 30px;
+}
