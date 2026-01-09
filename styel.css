@@ -14,18 +14,28 @@
 nav{
     display: flex;
     justify-content: space-between;
-    max-width: 1600px;
+    max-width:1360px;
     border-color: white;
     padding: 24px 120px;
+    margin-top: 0px;
+    padding-top: 0px;
+    
 }
 ul{
     display: flex;
     list-style: none;
     gap: 32px;
 }
+li:hover{
+    background-color: #30B868;
+    color:white;
+    scale: 1.3;
+    padding: 5px;
+    border-radius: 5px;
+}
 li{
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
 }
 .but{
     padding: 12px 16px;
@@ -189,4 +199,57 @@ li{
 .list{
     list-style-image: url(/assets/CheckCircle.png);
     line-height: 30px;
+    margin-top: 40px;
+}
+
+.last-section{
+    max-width:1360px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 10px;
+    padding-bottom: 80px;
+
+}
+.last{
+    max-width: 1600px;
+}
+.last-section h2{
+    font-size: 40px;
+    padding-top: 80px;
+
+}
+.last-section p{
+    font-size: 16px;
+    color: #627382;
+    
+}
+.fonter-content{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    max-width:1600px;
+    padding: 120px 180px 0px 120px;
+    background-color: #001931;
+    margin-top: 120px;
+    
+}
+.socil-png h2{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.socil-png img{
+    background-color: white;
+    padding: 16px;
+    margin-right: 16px;
+    border-radius: 50%;
+}
+.copy-right{
+    color: white;
+    text-align: center;
+    margin-top: 110px;
+    padding-bottom: 30px;
+    font-size: 16px;
 }
