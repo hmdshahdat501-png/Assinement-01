@@ -197,7 +197,7 @@ li{
     max-width: 600px;
 }
 .list{
-    list-style-image: url(/assets/CheckCircle.png);
+    list-style-image: url(assets/CheckCircle.png);
     line-height: 30px;
     margin-top: 40px;
 }
